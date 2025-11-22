@@ -1,0 +1,97 @@
+body {
+  /* bg gradient */
+  background: linear-gradient(to right, #9594c9, #c2b3e0, #aaa9d6);
+  /* background: rgba(0, 0, 0, 0.1); */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 10px;
+  background-image: url("../img/kibaale-national-park.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-content {
+  /* add glass effect */
+  flex: 1 1 0;
+  min-height: 100vh;
+  max-width: 400px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#main-content h2 {
+  color: #ffffff;
+}
+span.highlight {
+  background-color: yellow;
+}
+.text-field {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background: #fff;
+  height: 100px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  position: relative;
+  resize: vertical;
+  overflow: auto;
+  color: #000;
+}
+.text-field:focus {
+  border: 1px solid #5a5877;
+  outline: none;
+  box-shadow: 0 0 5px rgba(82, 77, 160, 0.5);
+}
+#main-content span {
+  position: relative;
+}
+.note-item {
+  position: relative;
+}
+.delete-note {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.delete-note:hover {
+  transform: scale(1.2);
+}
+#create-note {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #6b62e2;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color 0.3s ease;
+}
+#create-note:hover {
+  background-color: #5950c3;
+  border: 1px solid #ffffff;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 0px 20px;
+}

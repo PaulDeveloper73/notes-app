@@ -1,0 +1,243 @@
+body {
+  background-color: #f0f0f0;
+}
+#view {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.view2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  gap: 10px;
+  flex-flow: row wrap;
+}
+.view2 div {
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+  flex: 1 0 100px;
+  box-sizing: border-box;
+}
+.view3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 10px;
+}
+.view3 div {
+  background-color: #d0d0d0;
+  padding: 20px;
+  text-align: center;
+}
+.view1 {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.view1 div {
+  flex: 1 0 100px;
+  background-color: #c0c0c0;
+  padding: 20px;
+  text-align: center;
+}
+.view1 div:hover {
+  background-color: orange;
+  color: #ffffff;
+  cursor: pointer;
+}
+.view1 h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.view1 p {
+  font-size: 1.2em;
+  color: #555555;
+}
+#menu {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+}
+#menu h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  background: dodgerblue;
+  padding: 4px 10px;
+  border-radius: 7px;
+}
+.menu-hover:hover {
+  background-color: orange !important;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  transform: scale(1.03);
+  cursor: pointer;
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.nav ul li {
+  margin: 10px 0;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: dodgerblue;
+  font-weight: bold;
+}
+.userform {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-flow: column wrap;
+}
+.userform label {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+.userform input {
+  padding: 12px;
+  font-size: 1em;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.userform input:active {
+  border: none;
+}
+.userform button {
+  margin-top: 20px;
+  padding: 12px 15px;
+  font-size: 1em;
+  background-color: dodgerblue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.userform button:hover {
+  background-color: orange;
+}
+.userList {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+.userList li {
+  margin: 5px 0;
+}
+
+.s-about-img.p-relative > img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+  filter: grayscale(100%);
+  scale: 1.1;
+}
+#random-joke {
+  margin: 20px auto;
+  padding: 15px;
+  width: 60%;
+  background-color: #e8f4fd;
+  border: 1px solid #b3d4fc;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #333333;
+}
+#random-joke .joke {
+  font-style: italic;
+}
+#random-joke .joke:hover {
+  color: dodgerblue;
+  cursor: pointer;
+}
+#random-joke .joke:active {
+  color: orange;
+}
+#userEmailForm {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-flow: column wrap;
+}
+#userEmailForm label {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+#userEmailForm input {
+  padding: 12px;
+  font-size: 1em;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+#userEmailForm input:active {
+  border: none;
+}
+#userEmailForm button {
+  margin-top: 20px;
+  padding: 12px 15px;
+  font-size: 1em;
+  background-color: dodgerblue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+#userEmailForm button:hover {
+  background-color: orange;
+}
+#display-emails {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+}
+#display-emails p {
+  font-size: 1em;
+  color: #555555;
+}
+
+#myBtn {
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: dodgerblue;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#myBtn:hover {
+  background-color: blue;
+}
+#hideBtn button {
+  padding: 10px 15px;
+  font-size: 1em;
+  background-color: tomato;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+#hideBtn button:hover {
+  background-color: darkred;
+}
